@@ -42,6 +42,7 @@ public class F1 extends Car {
         else {
             changeGear(6);  // For speeds greater than 250, use gear 6
         }
+
         // Update speed and direction after changing gear
         if(newSpeed > 0) {
             changeSpeed(newSpeed, getCurrentDirection());
